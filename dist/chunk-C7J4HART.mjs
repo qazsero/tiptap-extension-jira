@@ -1,0 +1,1 @@
+import{Node as t,mergeAttributes as n}from"@tiptap/core";var d=t.create({name:"undefined",group:"inline",inline:!0,atom:!0,addAttributes(){return{}},parseHTML(){return[{tag:'span[data-type="undefined"]'}]},renderHTML({HTMLAttributes:e}){return["span",n(e,{"data-type":"undefined"}),""]}});export{d as a};

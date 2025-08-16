@@ -1,0 +1,1 @@
+import{Node as r,mergeAttributes as a}from"@tiptap/core";var n=r.create({name:"expand",group:"block",content:"block+",addAttributes(){return{title:{default:null}}},parseHTML(){return[{tag:"div[data-expand-title]"}]},renderHTML({node:t,HTMLAttributes:e}){return["div",a(e,{"data-expand-title":t.attrs.title}),0]}});export{n as a};

@@ -1,0 +1,1 @@
+import{Node as r,mergeAttributes as a}from"@tiptap/core";var p=r.create({name:"panel",group:"block",content:"block+",addAttributes(){return{panelType:{default:"info"}}},parseHTML(){return[{tag:"div[data-panel-type]"}]},renderHTML({node:e,HTMLAttributes:t}){return["div",a(t,{"data-panel-type":e.attrs.panelType}),0]}});export{p as a};

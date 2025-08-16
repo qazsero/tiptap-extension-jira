@@ -1,0 +1,1 @@
+import{Node as e,mergeAttributes as r}from"@tiptap/core";var d=e.create({name:"mediaSingle",group:"block",content:"media",addAttributes(){return{layout:{default:"align-start",parseHTML:t=>t.getAttribute("data-layout"),renderHTML:t=>({"data-layout":t.layout})}}},parseHTML(){return[{tag:"div[data-layout]"}]},renderHTML({HTMLAttributes:t}){return["div",r(t),0]}});export{d as a};

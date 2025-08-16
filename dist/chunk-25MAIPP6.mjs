@@ -1,0 +1,1 @@
+import{Node as r}from"@tiptap/core";var t=r.create({name:"mediaGroup",group:"block",content:"media+",parseHTML(){return[{tag:'div[data-type="mediaGroup"]'}]},renderHTML({HTMLAttributes:e}){return["div",{"data-type":"mediaGroup",...e},0]}});export{t as a};

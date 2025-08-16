@@ -38,7 +38,7 @@ yarn-error.log*
 *.tsbuildinfo
 
 # build
-dist/
+# dist/ - commented out so npm can install from GitHub with built files
 
 # test
 test.ts

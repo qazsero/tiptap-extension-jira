@@ -1,0 +1,1 @@
+import{Node as t,mergeAttributes as n}from"@tiptap/core";var i=t.create({name:"inlineCard",group:"inline",inline:!0,atom:!0,addAttributes(){return{url:{default:null}}},parseHTML(){return[{tag:'a[data-type="inlineCard"]'}]},renderHTML({node:e,HTMLAttributes:r}){return["a",n(r,{"data-type":"inlineCard"}),e.attrs.url]}});export{i as a};

@@ -1,0 +1,1 @@
+import{Mark as e,mergeAttributes as t}from"@tiptap/core";var l=e.create({name:"textColor",addAttributes(){return{color:{default:null,parseHTML:r=>r.style.color,renderHTML:r=>({style:`color: ${r.color}`})}}},parseHTML(){return[{style:"color"}]},renderHTML({HTMLAttributes:r}){return["span",t(r),0]}});export{l as a};
