@@ -9,10 +9,10 @@ export const Mention = TiptapMention.extend({
         default: null,
 
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        parseHTML: (element) => element.getAttribute('data-id'),
+        parseHTML: (element: HTMLElement) => element.getAttribute('data-id'),
 
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        renderHTML: (attributes) => {
+        renderHTML: (attributes: any) => {
           if (!attributes.id) {
             return {};
           }
@@ -23,9 +23,9 @@ export const Mention = TiptapMention.extend({
         default: null,
 
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        parseHTML: (element) => element.getAttribute('data-text'),
+        parseHTML: (element: HTMLElement) => element.getAttribute('data-text'),
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        renderHTML: (attributes) => {
+        renderHTML: (attributes: any) => {
           if (!attributes.text) {
             return {};
           }
@@ -35,9 +35,9 @@ export const Mention = TiptapMention.extend({
       accessLevel: {
         default: '',
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        parseHTML: (element) => element.getAttribute('data-access-level'),
+        parseHTML: (element: HTMLElement) => element.getAttribute('data-access-level'),
         // biome-ignore lint/style/useNamingConvention: "This is a Tiptap property"
-        renderHTML: (attributes) => {
+        renderHTML: (attributes: any) => {
           if (!attributes.accessLevel) {
             return {};
           }
