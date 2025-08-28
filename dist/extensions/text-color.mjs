@@ -1,1 +1,1 @@
-import{a}from"../chunk-5NIVQ3II.mjs";export{a as TextColor};
+import{a}from"../chunk-C5PAIAI4.mjs";export{a as TextColor};
