@@ -17,6 +17,9 @@ declare const Jira: {
     SubSup: _tiptap_core.Mark<any, any>;
     TextColor: _tiptap_core.Mark<any, any>;
     UndefinedNode: _tiptap_core.Node<any, any>;
+    OrderedList: _tiptap_core.Node<any, any>;
+    BulletList: _tiptap_core.Node<any, any>;
+    ListItem: _tiptap_core.Node<any, any>;
 };
 
 export { Jira };

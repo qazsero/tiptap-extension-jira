@@ -13,6 +13,9 @@ import { Strong } from './extensions/strong';
 import { SubSup } from './extensions/subsup';
 import { TextColor } from './extensions/text-color';
 import { UndefinedNode } from './extensions/undefined';
+import { OrderedList } from './extensions/ordered-list';
+import { BulletList } from './extensions/bullet-list';
+import { ListItem } from './extensions/list-item';
 
 export const Jira = {
   ExpandClient,
@@ -30,4 +33,7 @@ export const Jira = {
   SubSup,
   TextColor,
   UndefinedNode,
+  OrderedList,
+  BulletList,
+  ListItem,
 };
